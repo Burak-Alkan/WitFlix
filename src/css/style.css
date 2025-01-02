@@ -1,0 +1,100 @@
+*{
+   
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+header, main, section, footer{
+    padding: 1rem;
+}
+#wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    row-gap: 2rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    padding: 1rem;
+}
+
+header .logo{
+    height: 30px;
+}
+
+header nav{
+    gap: 1rem;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header .right{
+    gap: 1rem;
+}
+header .right .search{
+    position: relative;
+}
+
+header .right .search{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+header .right .profile{
+    gap: 1rem;
+}
+
+main{
+    background-image: url("/src/images/bohemian\ rhapsody.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 16rem 4rem;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.play-text{
+    color: white;
+}
+
+.suggestion-row{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.suggestion-row .s-header{
+    display: flex;
+    justify-content: space-between;
+}
+.suggestion-row h2{
+    font-size: 1rem;
+}
+
+.suggestion-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
