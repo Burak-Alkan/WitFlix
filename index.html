@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wit Flix</title>
+    <title>WitFlix</title>
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">   
     <link rel="stylesheet" href="./src/css/all.min.css"> 
@@ -15,21 +15,20 @@
         <header class="flex">
             <img src="./src/images/witflix-logo.png" alt="WitFlix logo" class="logo">
             <nav>
-                <a href="">top1</a>
-                <a href="">top2</a>
-                <a href="">top3</a>
-                <a href="">top4</a>
+                
+                    <a href="#">Home</a>
+                    <a href="#">TV Shows</a>
+                    <a href="#">Movies</a>
+                    <a href="#">My List</a>
+                
             </nav>
             
                 <div class="right flex">
-                    <div class="search" >
-                        <input type="text" placeholder="Search">
-                        <i class="fa-solid fa-search"></i>
+                    <div class="search">
+                        <input type="text" placeholder="Search...">
+                        <i class="bell">🔔</i>
+                        <img class="profile" src="./src/images/WhatsApp Görsel 2025-01-03 saat 11.46.19_8b9b1047.jpg" alt="Profile">
                     </div>
-                    <div class="profile flex">
-                        <i class="fa-solid fa-bell"></i>
-                        <img src="" alt="Profil Resmi" class="profile">
-                        <button type="button" class="btn btn-danger">Tıkla</button>
                         
                 </div>
 
@@ -42,80 +41,134 @@
         
         <main>
             <div class="hero-content">
+                
+                
                 <h1>Bohemian Rhapsody</h1>
 
-                <div class="movie-info">
-                    <span>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </span>
-                    <span class="rating-number">8.2</span>
-                    <span class="rating-source">IMDB</span>
-                    <span class=" maturity-rating">16+</span>
-                    <span class="duration">2 h 15 min</span>
-                </div>
-                <p>
-                    With his impeccable vocal abilities, Freddie Mercury and his rock band, Queen, achieve superstardom. However, amidst his skyrocketing success, he grapples with his ego, sexuality and a fatal illness.
-                </p>
-                <ul class="movie-details">
-                    <li><span class="label">Starring:</span> Rami Malek, Lucy Boynton, Gwilym Lee</li>
-                    <li><span class="label">Genre:</span> Period Drama</li>
-                    <li><span class="label">Tags:</span>Biography, Music</li>
-                </ul>
-                <span class="btn">
-                    <i class="fas fa-play"></i>
-                    <span class="play-text">Play Now</span>
+                <h1>Bohemian Rhapsody</h1>
+
+        <div class="movie-info">
+            <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            <span class="rating-number">8.2</span>
+            <span class="rating-source">IMDB</span>
+            <span class="maturity-rating">16+</span>
+            <span class="duration">2 h 15 min</span>
+        </div>
         
+        <p>
+            With his impeccable vocal abilities, 
+            Freddie Mercury and his rock band, Queen, achieve superstardom. 
+            However, amidst his skyrocketing success, 
+            he grapples with his ego, sexuality, and a fatal illness.
+        </p>
+        
+        <ul class="movie-details">
+            <li><span class="label">Starring:</span> Rami Malek, Lucy Boynton, Gwilym Lee</li>
+            <li><span class="label">Genre:</span> Period Drama</li>
+            <li><span class="label">Tags:</span> Biography, Music</li>
+        </ul>
 
-                
-
-            </div>
+        
+        <div class="play-now-box">
+            <button class="btn">
+                <i class="fas fa-play"></i>
+                <span class="play-text">Play Now</span>
+            </button>
+        </div>
+    </div>
         </main>
         <section>
-            <div class="suggestion-row">
-                <div class="s-header">
-                    <h2>Popular Movies</h2>
-                    <a href="">View Al</a>
-                </div >
-                <div class="suggestion-content"></div>
-                <div class="item">
-                    <h3>Movie Name</h3>
-                    <div class="detail">
-                        <span class="maturity-rating">16+</span>
-                        <span class="duration">2 h 20 min</span>
-                    </div>
-                    <div>Play Now</div>
-
-
+            <h2>Popular Movies</h2>
+            <div class="movies-grid">
+                <div class="movie-card">
+                    <img src="./src/images/in time.jpg" alt="">
+                    <h3>In Time</Time></h3>
+                    <span>1h 55min</span>
+                    <button>Play Now</button>
                 </div>
-                <div class="item">
-                    <h3>Movie Name</h3>
-                    <div class="detail">
-                        <span class="maturity-rating">16+</span>
-                        <span class="duration">2 h 20 min</span>
-                    </div>
-                    <div>Play Now</div>
-
-
+                <div class="movie-card">
+                    <img src="./src/images/the godfather.webp" alt="Movie 2">
+                    <h3>The Godfather</h3>
+                    <span>2h 55min</span>
+                    <button>Play Now</button>
                 </div>
-                <div class="item">
-                    <h3>Movie Name</h3>
-                    <div class="detail">
-                        <span class="maturity-rating">16+</span>
-                        <span class="duration">2 h 20 min</span>
-                    </div>
-                    <div>Play Now</div>
+                <div class="movie-card">
+                    <img src="./src/images/deadpool.jpeg" alt="Movie 3">
+                    <h3>Deadpool & Wolverine</h3>
+                    <span>2h 20min</span>
+                    <button>Play Now</button>
                 </div>
-
+                <div class="movie-card">
+                    <img src="./src/images/pianist.webp" alt="Movie 4">
+                    <h3>Pianist</h3>
+                    <span>2h 30min</span>
+                    <button>Play Now</button>
+                </div>
+                <div class="movie-card">
+                    <img src="./src/images/Platform-e1650766698404.jpg" alt="Movie 5">
+                    <h3>Platform</h3>
+                    <span>1h 34min</span>
+                    <button>Play Now</button>
+                </div>
+                <div class="movie-card">
+                    <img src="./src/images/cars.jpg" alt="Movie 6">
+                    <h3>Cars</h3>
+                    <span>1h 57min</span>
+                    <button>Play Now</button>
                 </div>
             </div>
 
             
         </section>
-        <footer></footer>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-links">
+                    <nav>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Watch List</a>
+                    </nav>
+                </div>
+                
+        
+                <div class="footer-follow-us">
+                    <h3>Follow Us</h3>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="./src/images/facebook-icon.png" alt="Facebook">
+                        </a>
+                        <a href="https://youtube.com" target="_blank">
+                            <img src="./src/images/youtube-icon.png" alt="YouTube">
+                        </a>
+                        <a href="https://twitter.com" target="_blank">
+                            <img src="./src/images/twitter-icon.png" alt="Twitter">
+                        </a>
+                    </div>
+                </div>
+        
+                
+                <div class="footer-app">
+                    <h3>Get Our App</h3>
+                    <div class="footer-app-links">
+                        <a href="https://www.apple.com/app-store/" target="_blank">
+                            <img src="./src/images/applestore.png" alt="App Store">
+                        </a>
+                        <a href="https://play.google.com/store" target="_blank">
+                            <img src="./src/images/googleplay.png" alt="Play Store">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2025 Your Company. All rights reserved.</p>
+            
+        </footer>
     </div>
     
 </body>
